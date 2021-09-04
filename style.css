@@ -221,11 +221,12 @@ footer p {
   .flex-col {
     display: flex;
     flex-direction: column;
+    width: 50%;
   }
 
   #ideas img {
     width: 95%;
-    height: 100%;
+    height: auto;
   }
   /* Host section */
 }
