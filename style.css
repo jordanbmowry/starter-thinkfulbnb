@@ -210,11 +210,6 @@ footer p {
     width: 50%;
   }
 
-  .about-imgs {
-    display: flex;
-    justify-content: space-evenly;
-  }
-
   /* Ideas */
 
   .flex-row {
@@ -230,17 +225,9 @@ footer p {
 
   #ideas img {
     width: 95%;
+    height: 100%;
   }
   /* Host section */
-
-  #host {
-    display: flex;
-    align-items: center;
-  }
-
-  #host img {
-    width: 45%;
-  }
 }
 
 @media all and (min-width: 630px) {
@@ -257,7 +244,6 @@ footer p {
   #stay form {
     display: flex;
     justify-content: space-between;
-    align-items: center;
   }
 
   form input {
@@ -268,5 +254,27 @@ footer p {
     width: 15%;
     font-size: 16px;
     padding: 10px 20px;
+  }
+
+  .about-imgs {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
+@media all and (min-width: 930px) {
+  .host-text {
+    width: 50%;
+  }
+
+  .host-img-div {
+    width: 50%;
+    margin-left: 1rem;
+    height: 100%;
+  }
+
+  #host {
+    display: flex;
+    align-items: center;
   }
 }
