@@ -229,6 +229,11 @@ footer p {
     height: auto;
   }
   /* Host section */
+  .host-img-div {
+    width: 75%;
+    height: auto;
+    margin: 0 auto;
+  }
 }
 
 @media all and (min-width: 630px) {
@@ -264,6 +269,7 @@ footer p {
 }
 
 @media all and (min-width: 930px) {
+  /* Host section */
   .host-text {
     width: 50%;
   }
